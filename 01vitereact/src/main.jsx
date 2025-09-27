@@ -1,4 +1,3 @@
-import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
 import React from 'react'
 import App from './App.jsx'
@@ -34,6 +33,7 @@ const reactElement = React.createElement(
 
 createRoot(document.getElementById('root')).render(
 
-    reactElement
+        reactElement
+
 
 )
